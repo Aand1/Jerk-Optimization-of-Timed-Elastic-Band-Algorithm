@@ -6,7 +6,7 @@ To make the trajectory produced by the TEB algorithm less jerky, an item conside
 
 ## Algorithm
 The modified hypergraph is shown below. 
-![image](https://github.com/ZRZheng/Jerk-Optimization-of-Timed-Elastic-Band-Algorithm/blob/master/HyperGraph.PNG)
+![image](width="600" height="340" https://github.com/ZRZheng/Jerk-Optimization-of-Timed-Elastic-Band-Algorithm/blob/master/HyperGraph.PNG)
 
 ## Requirement
 * [ROS kinetic](http://wiki.ros.org/kinetic/Installation)
