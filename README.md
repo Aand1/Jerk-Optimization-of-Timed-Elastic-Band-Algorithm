@@ -1,7 +1,7 @@
 # Jerk-Optimization-of-Timed-Elastic-Band-Algorithm
 
 ## Introduction
-[Time elastic band algorithm(Rosmann,2012)](http://ieeexplore.ieee.org/abstract/document/6309484/) solves the local planning problem using a weighted multi-objective optimization framwork. Then the optimization is transformed into a hypergraph and solved with [G2O](http://ieeexplore.ieee.org/abstract/document/5979949/). The TEB algorithm is avalible as a ROS package developed by Rosmann, you can download the whole package[here](https://github.com/rst-tu-dortmund/teb_local_planner).
+[Time elastic band algorithm(Rosmann,2012)](http://ieeexplore.ieee.org/abstract/document/6309484/) solves the local planning problem using a weighted multi-objective optimization framwork. Then the optimization is transformed into a hypergraph and solved with [G2O](http://ieeexplore.ieee.org/abstract/document/5979949/). The TEB algorithm is avalible as a ROS package developed by Rosmann, you can download the whole package [here](https://github.com/rst-tu-dortmund/teb_local_planner).
 To make the trajectory produced by the TEB algorithm less jerky, an item considering jerk (derivative of acceleration) is added to the original optimazation framwork.
 
 ## Algorithm
